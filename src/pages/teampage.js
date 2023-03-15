@@ -1,6 +1,6 @@
 import React from "react";
 import Container from 'react-bootstrap/Container';
-import TeamCard from '../components/TeamCard';
+import TeamCard from '../components/teamcard.js';
 
 function Team() {
     return (
