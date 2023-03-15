@@ -1,5 +1,4 @@
 import React from "react";
-import TeamCard from '../components/teamcard.js';
 
 function Team() {
     return (
