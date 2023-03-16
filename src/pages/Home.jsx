@@ -1,7 +1,7 @@
 import React from "react";
 import Footer from "../components/Footer"
 import NavBar from "../components/Navbar"
-import Card from "../components/Card"
+
 
 import Wrapper from "../components/Wrapper"
 
