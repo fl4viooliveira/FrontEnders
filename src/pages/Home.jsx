@@ -1,10 +1,21 @@
 import React from "react";
+import Footer from "../components/Footer"
+import NavBar from "../components/Navbar"
+import Card from "../components/Card"
+
+import Wrapper from "../components/Wrapper"
 
 export default function Home(){
     return (
+        <Wrapper>
+            <NavBar></NavBar>
         <div>
-        <h1>This is our homepage</h1>
+        <h1>frontEnders</h1>
         </div>
+        
+        <Footer></Footer>
+        </Wrapper>
+        
     );
 }
 
