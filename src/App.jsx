@@ -5,7 +5,8 @@ import Navbar from './components/Navbar.jsx';
 import Footer from './components/Footer.jsx';
 import Home from './pages/Home.jsx';
 import Contact from './pages/contactpage.jsx';
-import TeamList from './pages/team';
+import TeamList from "./pages/team"
+import Developer from './pages/team/slug.jsx';
 
 function App() {
   return (
@@ -16,6 +17,8 @@ function App() {
       <Route path="/" element={<Home />} />
       <Route path="/contact" element={<Contact />} />
       <Route path="/team" element={<TeamList />} />
+      <Route path="/team/:slug" element={<Developer/>} />
+
       </Routes>
       <Footer />
       </div>
