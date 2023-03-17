@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link, NavLink } from 'react-router-dom';
-
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
@@ -14,12 +13,13 @@ export default function Navibar() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-            <NavLink to="/" className="linkname">Home</NavLink>
-            <NavLink to="/services" className="linkname">Services</NavLink>
-            <NavLink to="/team" className="linkname">Team</NavLink>
+            <NavLink to="/" className="m-2 linkname">Home</NavLink>
+            <NavLink to="/services" className="m-2 linkname">Services</NavLink>
+            <NavLink to="/team" className="m-2 linkname">Team</NavLink>
+            <NavLink to="/contactpage"className="m-2 linkname">Contact us</NavLink>
           </Nav>
           <Nav>
-            <NavLink to="/contactpage">Contact us</NavLink>
+          
           </Nav>
         </Navbar.Collapse>
       </Container>
