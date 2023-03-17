@@ -1,6 +1,7 @@
 import React from "react";
 import { useEffect, useState } from "react";
 import axios from "axios";
+import Container from 'react-bootstrap/Container';
 
 export default function Aboutus() {
     const apiUrl = `https://api.fl4v.io/wp-json/wp/v2/pages/11`;
@@ -17,6 +18,8 @@ export default function Aboutus() {
     console.log(about)
 
     return (
+        <Container>
         <div dangerouslySetInnerHTML={{__html: about}}></div>
+        </Container>
     )
 }
