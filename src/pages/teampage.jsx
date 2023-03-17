@@ -3,7 +3,7 @@ import CardGroup from "../components/CardGroup"
 
 import NavBar from "../components/Navbar"
 
-function Team() {
+export default function Team() {
     return (
      
         <div>
@@ -16,5 +16,3 @@ function Team() {
       
     )
 }
-
-export default Team;
