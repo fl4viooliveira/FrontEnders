@@ -10,7 +10,7 @@ export default function Navibar() {
     <Navbar collapseOnSelect expand="lg" id="navbar" bg="dark">
       <Container>
       
-        <Link className="navbar-brand" to="/"><img src="http://api.fl4v.io/wp-content/uploads/2023/03/F.Enders-1.png" width="50"/></Link>
+        <Link className="navbar-brand" to="/"><img src="http://api.fl4v.io/wp-content/uploads/2023/03/F.Enders-1.png" width="50" alt="logo"/></Link>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
