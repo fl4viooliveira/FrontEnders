@@ -1,7 +1,7 @@
 import axios from "axios";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 import { useEffect, useState } from "react";
-import Developer from "./slug.jsx"
+import Developer from "./slug.jsx";
 
 export default function TeamList() {
   const [team, setTeam] = useState([]);
@@ -21,8 +21,8 @@ export default function TeamList() {
       {team.map((dev) => (
         <li key={dev.id}>
           <Link to={dev.slug} element={<Developer />}>
-        {dev.title.rendered}
-        </Link>
+            {dev.title.rendered}
+          </Link>
         </li>
       ))}
     </ul>
