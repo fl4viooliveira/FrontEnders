@@ -4,7 +4,7 @@ import "../styles/footer.css"
 import { Card } from "react-bootstrap";
 import Wrapper from "../components/Wrapper";
 import NavBar from "../components/Navbar";
-import Header from "../components/Header"
+import MainImage from "../components/MainImage.jsx"
 import Footer from "../components/Footer";
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -14,7 +14,7 @@ export default function Home() {
     <Wrapper>
     <NavBar />
     
-    <Header></Header>
+    <MainImage></MainImage>
     <Card />  
     <Footer />
     </Wrapper>
