@@ -13,5 +13,10 @@ export default function Aboutus() {
             console.log(response.data.content.rendered)
         })
     });
+ 
+    console.log(about)
 
+    return (
+        <div dangerouslySetInnerHTML={{__html: about}}></div>
+    )
 }
