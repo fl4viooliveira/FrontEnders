@@ -1,8 +1,8 @@
-export default function Wrapper(){
-    return(
-    <div>
-    
-      </div>
-    )
-  }
-  
+import React from "react";
+
+
+function Wrapper(props) {
+  return <div className="wrapper">{props.children}</div>;
+}
+
+export default Wrapper;

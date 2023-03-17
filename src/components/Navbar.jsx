@@ -3,20 +3,20 @@ import { Link, NavLink } from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-
+import  "../styles/navbar.css";
 export default function Navibar() {
   return (
     <Navbar collapseOnSelect expand="lg" id="navbar" bg="dark">
       <Container>
       
-        <Link className="navbar-brand" to="/"><img src="http://api.fl4v.io/wp-content/uploads/2023/03/F.Enders-1.png" width="50"/></Link>
+        <Link className="navbar-brand" to="/"><img src="http://api.fl4v.io/wp-content/uploads/2023/03/F.Enders-1.png" width="50" alt="logos"/></Link>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
             <NavLink to="/" className="m-2 linkname">Home</NavLink>
             <NavLink to="/services" className="m-2 linkname">Services</NavLink>
             <NavLink to="/team" className="m-2 linkname">Team</NavLink>
-            <NavLink to="/contactpage"className="m-2 linkname">Contact us</NavLink>
+            <NavLink to="/contactpage"className="m-2 linkname">Contact</NavLink>
           </Nav>
           <Nav>
           

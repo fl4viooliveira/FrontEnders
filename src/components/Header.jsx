@@ -1,12 +1,13 @@
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+import '../styles/header.css'
 
-function HeaderAndFooterExample() {
+function Header() {
   return (
     <Card className="text-center">
-      <Card.Header>Featured</Card.Header>
+      <Card.Header>frontEnders</Card.Header>
       <Card.Body>
-        <Card.Title>Special title treatment</Card.Title>
+        <Card.Title>Welcome to frontEnders</Card.Title>
         <Card.Text>
           With supporting text below as a natural lead-in to additional content.
         </Card.Text>
@@ -17,4 +18,4 @@ function HeaderAndFooterExample() {
   );
 }
 
-export default HeaderAndFooterExample;
+export default Header;

@@ -1,10 +1,11 @@
 import Card from 'react-bootstrap/Card';
 import ListGroup from 'react-bootstrap/ListGroup';
-
-function KitchenSinkExample() {
+import image1 from "../assets/frontEnd.png";
+import "../styles/card.css";
+function MainCard() {
   return (
     <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src="holder.js/100px180?text=Image cap" />
+      <Card.Img variant="top" src={image1} />
       <Card.Body>
         <Card.Title>Card Title</Card.Title>
         <Card.Text>
@@ -25,4 +26,4 @@ function KitchenSinkExample() {
   );
 }
 
-export default KitchenSinkExample;
+export default MainCard;

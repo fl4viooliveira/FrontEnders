@@ -1,18 +1,20 @@
 import React from "react";
-import CardGroup from "../components/CardGroup"
 
-import NavBar from "../components/Navbar"
+import Wrapper from "../components/Wrapper";
 
-export default function Team() {
+
+function Team() {
     return (
-     
+     <Wrapper>
         <div>
-         <NavBar></NavBar>
-      <h1>This is our team</h1>
-      <CardGroup></CardGroup>
+      
+      <h1 class="team-title">This is our team</h1>
+     
         </div>
-
+        </Wrapper>
 
       
     )
 }
+
+export default Team;
