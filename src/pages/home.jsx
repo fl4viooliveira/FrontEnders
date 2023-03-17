@@ -3,6 +3,8 @@ import Card from "../components/Card";
 import Footer from "../components/Footer";
 import NavBar from "../components/Navbar";
 import Wrapper from "../components/Wrapper";
+import "../styles/homepage.css"
+import "../styles/footer.css"
 
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -10,9 +12,7 @@ export default function Home() {
   return (
     <Wrapper>
       <NavBar></NavBar>
-      <div>
-        <h1>frontEnders</h1>
-      </div>
+    
       <Card></Card>
 
       <Footer></Footer>
