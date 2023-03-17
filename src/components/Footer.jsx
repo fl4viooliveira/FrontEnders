@@ -9,7 +9,7 @@ export default function Footer() {
       <div className="row text-center">
         <div className="col-md-4">
           <h4>©2023 frontEnders</h4>
-          <p>More information about frontEnders here! Maybe from Wordpress??? "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua..."</p>
+          <p>For more info contact us</p>
         </div>
         <div className="col-md-4">
           <h4>Our repositories:</h4>

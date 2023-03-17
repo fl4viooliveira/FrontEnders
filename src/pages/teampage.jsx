@@ -8,7 +8,7 @@ function Team() {
      <Wrapper>
         <div>
       
-      <h1 class="team-title">This is our team</h1>
+      <h1>This is our team</h1>
      
         </div>
         </Wrapper>

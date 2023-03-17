@@ -16,7 +16,7 @@ export default function Navibar() {
             <NavLink to="/" className="m-2 linkname">Home</NavLink>
             <NavLink to="/services" className="m-2 linkname">Services</NavLink>
             <NavLink to="/team" className="m-2 linkname">Team</NavLink>
-            <NavLink to="/contactpage"className="m-2 linkname">Contact</NavLink>
+            <NavLink to="/contactpage"className="m-2 linkname">Contact us</NavLink>
           </Nav>
           <Nav>
           
