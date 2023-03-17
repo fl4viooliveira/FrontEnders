@@ -1,6 +1,6 @@
 import Card from 'react-bootstrap/Card';
 import ListGroup from 'react-bootstrap/ListGroup';
-import image1 from "../assets/frontEnd.png";
+import image1 from "../assets/logo.png";
 import "../styles/card.css";
 function MainCard() {
   return (

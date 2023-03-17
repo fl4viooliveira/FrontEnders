@@ -17,7 +17,7 @@ export default function Home() {
  <Header></Header>
       <Card />  
    
-      <MainCard />
+    
       <Footer />
     </Wrapper>
   );
