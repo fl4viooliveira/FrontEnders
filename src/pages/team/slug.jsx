@@ -1,6 +1,14 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
+import JobCard from "../../components/JobCard";
+import {
+  AiOutlineMail,
+  AiOutlineFilePdf,
+  AiOutlineLinkedin,
+  AiOutlineGithub,
+} from "react-icons/ai";
+import { BsStackOverflow } from "react-icons/bs";
 
 export default function Developer() {
   let { slug } = useParams();
@@ -22,10 +30,42 @@ export default function Developer() {
         <div key={data.id}>
           <h2>{data.title.rendered}</h2>
           <div dangerouslySetInnerHTML={{ __html: data.content.rendered }} />
+
           <img
             src={data.yoast_head_json.og_image[0].url}
             alt={data.title.rendered}
           />
+
+          <div className= "row">
+            {data.linkedin === "" ? (
+              <></>
+            ) : (
+              <a href={data.linkedin} target="_blank" rel="noreferrer">
+                <i>
+                  <AiOutlineLinkedin />
+                </i>
+              </a>
+            )}
+
+            {data.github === "" ? (
+              <></>
+            ) : (
+              <a href={data.github} target="_blank" rel="noreferrer">
+                <i>
+                  <AiOutlineGithub />
+                </i>
+              </a>
+            )}
+            {data.stackoverflow === "" ? (
+              <></>
+            ) : (
+              <a href={data.stackoverflow} target="_blank" rel="noreferrer">
+                <i>
+                  <BsStackOverflow />
+                </i>
+              </a>
+            )}
+          </div>
 
           <section className="container-fluid skill-box" id="skills">
             <h1 className="text-center my-5">Skills</h1>
@@ -103,8 +143,80 @@ export default function Developer() {
             </div>
           </section>
 
-          <div>
-            <h1>sfsdfasdfa</h1>
+          <div className="container-fluid">
+            <h1 className="mb-4">Last Jobs</h1>
+            <div className="row">
+              {data.job_name_1 === "" ? (
+                <></>
+              ) : (
+                <div class="col-md-4 d-flex justify-content-center mb-5">
+                  <JobCard
+                    deployed={data.job_deployed_1}
+                    repo={data.job_repo_1}
+                    name={data.job_name_1}
+                    img={data.job_image_1.guid}
+                    alt={data.job_name_1}
+                  />
+                </div>
+              )}
+              {data.job_name_2 === "" ? (
+                <></>
+              ) : (
+                <div class="col-md-4 d-flex justify-content-center mb-5">
+                  <JobCard
+                    deployed={data.job_deployed_2}
+                    repo={data.job_repo_2}
+                    name={data.job_name_2}
+                    img={data.job_image_2.guid}
+                    alt={data.job_name_2}
+                  />
+                </div>
+              )}
+              {data.job_name_3 === "" ? (
+                <></>
+              ) : (
+                <div class="col-md-4 d-flex justify-content-center mb-5">
+                  <JobCard
+                    deployed={data.job_deployed_3}
+                    repo={data.job_repo_3}
+                    name={data.job_name_3}
+                    img={data.job_image_3.guid}
+                    alt={data.job_name_3}
+                  />
+                </div>
+              )}
+            </div>
+          </div>
+
+          <div className="row">
+            {data.email === "" ? <></> : (
+            <a
+              href={`mailto:${data.email}`}
+              target="_blank"
+              rel="noreferrer"
+              className="btn btn-outline-danger btn-floating m-1"
+              role="button"
+            >
+              <i>
+                {data.email}: <AiOutlineMail />
+              </i>
+            </a>
+
+            )}
+            {data.cv_pdf.guid === "" ? <></> : (
+            <a
+              href={data.cv_pdf.guid}
+              target="_blank"
+              rel="noreferrer"
+              className="btn btn-outline-danger btn-floating m-1"
+              role="button"
+            >
+              <i>
+                CV: <AiOutlineFilePdf />
+              </i>
+            </a>
+            
+            )}
           </div>
         </div>
       ))}
