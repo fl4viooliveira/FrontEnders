@@ -15,6 +15,7 @@ export default function Navibar() {
             alt="FontEnder"
           />
         </Link>
+      
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">

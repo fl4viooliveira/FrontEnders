@@ -5,7 +5,7 @@ import Navbar from './components/Navbar.jsx';
 import Footer from './components/Footer.jsx';
 import Home from './pages/home.jsx';
 import Contact from './pages/contactpage.jsx';
-import TeamList from "./pages/teampage.jsx"
+import TeamList from "./pages/team"
 import Developer from './pages/team/slug.jsx';
 import About from './pages/aboutus.jsx'
 import Wrapper from "./components/Wrapper.jsx"
