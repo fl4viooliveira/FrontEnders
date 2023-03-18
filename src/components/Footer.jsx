@@ -14,8 +14,9 @@ export default function Footer() {
             <li className="list-unstyled"><a href="https://github.com/Moobell1212" target="_blank">Elspeth Meakin</a></li>
           </div>
         <div className="col-md-4">
+        <h4>For more info contact us</h4>
           <h4>©2023 frontEnders</h4>
-          <p>For more info contact us</p>
+          
         </div>
   
         <div className="col-md-4">

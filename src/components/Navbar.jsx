@@ -19,8 +19,7 @@ export default function Navibar() {
             <NavLink to="/contactpage"className="m-2 linkname">Contact us</NavLink>
           </Nav>
           <Nav>
-          
-          </Nav>
+         </Nav>
         </Navbar.Collapse>
       </Container>
     </Navbar>

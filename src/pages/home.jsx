@@ -13,8 +13,7 @@ export default function Home() {
   return (
     <Wrapper>
     <NavBar />
-    
-    <MainImage></MainImage>
+    <MainImage />
     <Card />  
     <Footer />
     </Wrapper>
