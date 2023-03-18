@@ -3,7 +3,7 @@ import Footer from "../components/Footer.jsx";
 
 export default function Layout(props) {
   return (
-    <div className="container">
+    <div className="container-fluid">
       <Navbar />
       {props.children}
       <Footer />
