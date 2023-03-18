@@ -15,20 +15,22 @@ export default function Navibar() {
             alt="FontEnder"
           />
         </Link>
-      
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-        <Navbar.Collapse id="responsive-navbar-nav">
+        <Navbar.Toggle
+          aria-controls="responsive-navbar-nav"
+          className="bg-primary text-light"
+        />
+        <Navbar.Collapse id="responsive-navbar-nav ">
           <Nav className="me-auto">
-            <NavLink to="/" className="linkname">
+            <NavLink to="/" className="linkname m-4">
               Home
             </NavLink>
-            <NavLink to="/about" className="linkname">
+            <NavLink to="/about" className="linkname m-4">
               About us
             </NavLink>
-            <NavLink to="/services" className="linkname">
+            <NavLink to="/services" className="linkname m-4">
               Services
             </NavLink>
-            <NavLink to="/team" className="linkname">
+            <NavLink to="/team" className="linkname m-4">
               Team
             </NavLink>
           </Nav>

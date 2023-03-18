@@ -1,8 +1,7 @@
 .cardCustom {
   border-radius: 15px;
-  background: linear-gradient(145deg, #563976, #67438c);
-  box-shadow: 9px 9px 20px #4d3269,
-    -9px -9px 20px #734c9d;
+  background: #4151ff;
+  box-shadow: inset 8px 8px 14px #28329e, inset -8px -8px 14px #5a70ff;
   overflow: hidden;
   padding: 10px;
   width: 18rem;
@@ -11,8 +10,9 @@
 
 .cardCustom:hover {
   border-radius: 15px;
-  background: #603f83;
-  box-shadow: 9px 9px 20px #4d3269,
-    -9px -9px 20px #734c9d;
+
+  background: #2534d4;
+  box-shadow: inset 8px 8px 14px #172083, inset -8px -8px 14px #3348ff;
+
   color: var(--alert) !important;
 }

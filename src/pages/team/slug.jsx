@@ -9,6 +9,7 @@ import {
   AiOutlineGithub,
 } from "react-icons/ai";
 import { BsStackOverflow } from "react-icons/bs";
+import Layout from "../../components/Layout";
 
 export default function Developer() {
   let { slug } = useParams();
@@ -25,6 +26,7 @@ export default function Developer() {
   console.log(dev, slug);
 
   return (
+    <Layout>
     <div className="container">
       {dev.map((data) => (
         <div key={data.id}>
@@ -203,7 +205,7 @@ export default function Developer() {
             </a>
 
             )}
-            {data.cv_pdf.guid === "" ? <></> : (
+            {!data.cv_pdf ? <></> : (
             <a
               href={data.cv_pdf.guid}
               target="_blank"
@@ -221,5 +223,6 @@ export default function Developer() {
         </div>
       ))}
     </div>
+    </Layout>
   );
 }
