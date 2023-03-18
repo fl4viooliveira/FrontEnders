@@ -1,4 +1,3 @@
-import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import '../styles/header.css'
 import image1 from "../assets/mainImage.png";
