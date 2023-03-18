@@ -1,21 +1,22 @@
 import React from "react";
-import Card from "../components/Card";
-import Footer from "../components/Footer";
-import NavBar from "../components/Navbar";
+import "../styles/homepage.css"
+import "../styles/footer.css"
+import { Card } from "react-bootstrap";
 import Wrapper from "../components/Wrapper";
-
+import NavBar from "../components/Navbar";
+import MainImage from "../components/MainImage.jsx"
+import Footer from "../components/Footer";
 import "bootstrap/dist/css/bootstrap.min.css";
+
 
 export default function Home() {
   return (
     <Wrapper>
-      <NavBar></NavBar>
-      <div>
-        <h1>frontEnders</h1>
-      </div>
-      <Card></Card>
-
-      <Footer></Footer>
+    <NavBar />
+    
+    <MainImage></MainImage>
+    <Card />  
+    <Footer />
     </Wrapper>
   );
 }
