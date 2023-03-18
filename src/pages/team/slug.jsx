@@ -205,7 +205,7 @@ export default function Developer() {
             </a>
 
             )}
-            {data.cv_pdf.guid === "" ? <></> : (
+            {!data.cv_pdf ? <></> : (
             <a
               href={data.cv_pdf.guid}
               target="_blank"
