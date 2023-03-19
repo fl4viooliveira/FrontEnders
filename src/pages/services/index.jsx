@@ -19,7 +19,7 @@ export default function ServiceList() {
   return (
     <Layout>
       <div className="container-fluid">
-        <h2 className="my-4 text-center">Offered Service</h2>
+        <h2 className="my-4 text-center">Offered Services</h2>
         <ul className="row g-3">
           {services.map((serv) => (
             <li className="col" key={serv.id}>
