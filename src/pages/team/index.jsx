@@ -11,7 +11,7 @@ export default function TeamList() {
   const apiUrl = "https://api.fl4v.io/wp-json/wp/v2/";
 
   useEffect(() => {
-    axios.get(`${apiUrl}posts?categories=4`).then((response) => {
+    axios.get(`${apiUrl}posts`).then((response) => {
       setTeam(response.data);
     });
   }, [setTeam]);
