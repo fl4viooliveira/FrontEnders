@@ -53,7 +53,7 @@ export default function Developer() {
               </div>
             </div>
 
-            <div className="row d-flex">
+            <div className="row d-flex mt-3">
               {data.linkedin === "" ? (
                 <></>
               ) : (
@@ -94,7 +94,8 @@ export default function Developer() {
               )}
             </div>
 
-            <section className="container-fluid skill-box" id="skills">
+
+            <section className="container-fluid skill-box my-5" id="skills">
               <h1 className="text-center my-5">Skills</h1>
               <div className="jumbotron skills-jumbo jumbotron-fluid">
                 {data.skills_git_github === "0" ? (
@@ -170,13 +171,13 @@ export default function Developer() {
               </div>
             </section>
 
-            <div className="container-fluid">
+            <div className="container-fluid my-4">
               <h1 className="mb-4">Last Jobs</h1>
               <div className="row">
                 {data.job_name_1 === "" ? (
                   <></>
                 ) : (
-                  <div class="col-md-4 d-flex justify-content-center mb-5">
+                  <div className="col-md-4 d-flex justify-content-center mb-5">
                     <JobCard
                       deployed={data.job_deployed_1}
                       repo={data.job_repo_1}
@@ -189,7 +190,7 @@ export default function Developer() {
                 {data.job_name_2 === "" ? (
                   <></>
                 ) : (
-                  <div class="col-md-4 d-flex justify-content-center mb-5">
+                  <div className="col-md-4 d-flex justify-content-center mb-5">
                     <JobCard
                       deployed={data.job_deployed_2}
                       repo={data.job_repo_2}
@@ -202,7 +203,7 @@ export default function Developer() {
                 {data.job_name_3 === "" ? (
                   <></>
                 ) : (
-                  <div class="col-md-4 d-flex justify-content-center mb-5">
+                  <div className="col-md-4 d-flex justify-content-center mb-5">
                     <JobCard
                       deployed={data.job_deployed_3}
                       repo={data.job_repo_3}
@@ -215,36 +216,42 @@ export default function Developer() {
               </div>
             </div>
 
-            <div className="row">
+            <div className="col">
               {data.email === "" ? (
                 <></>
               ) : (
+                  <div className="text-center">
                 <a
                   href={`mailto:${data.email}`}
                   target="_blank"
                   rel="noreferrer"
-                  className="btn btn-outline-danger btn-floating m-1"
+                  className="btn btn-outline-primary btn-floating m-2"
                   role="button"
                 >
                   <i>
                     {data.email}: <AiOutlineMail />
                   </i>
                 </a>
+
+                  </div>
               )}
               {!data.cv_pdf ? (
                 <></>
               ) : (
+                  <div className="text-center">
                 <a
                   href={data.cv_pdf.guid}
                   target="_blank"
                   rel="noreferrer"
-                  className="btn btn-outline-danger btn-floating m-1"
+                  className="btn btn-outline-primary btn-floating m-2"
                   role="button"
                 >
                   <i>
                     CV: <AiOutlineFilePdf />
                   </i>
                 </a>
+
+                  </div>
               )}
             </div>
           </div>
