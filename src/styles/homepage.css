@@ -1,4 +1,10 @@
 a {
-    color: rgb(255, 255, 255)!important;
-    text-decoration: none!important;
+  color: rgb(255, 255, 255) !important;
+  text-decoration: none !important;
+}
+.content {
+  border-radius: 10px;
+background: #1F277D;
+box-shadow: inset 7px 7px 14px #13184c,
+            inset -7px -7px 14px #2b36ae;
 }
