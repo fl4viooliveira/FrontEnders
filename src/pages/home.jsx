@@ -19,23 +19,27 @@ export default function Home() {
   return (
     <Layout>
       {home.map((data) => (
-        <div className="container">
-          <div className=" mt-3">
-            <div className="my-3 d-flex justify-content-center ">
-              <img
-                className="img-fluid p-3"
-                src={data.yoast_head_json.og_image[0].url}
-                alt={data.title.rendered}
-              />
-            </div>
-            <div className="col content" style={{ maxWidth: "600px", margin:"0 auto" }}>
-              <div
-                className="text-center p-4"
-                dangerouslySetInnerHTML={{ __html: data.content.rendered }}
-              ></div>
+        <section
+          key={data.id}
+          className="d-flex align-items-center my-5"
+          style={{ height: "80vh" }}
+        >
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1"
+              dangerouslySetInnerHTML={{ __html: data.content.rendered}}
+              >
+              </div>
+              <div className="col-lg-6 order-1 order-lg-2 hero-img">
+                <img
+                  src={data.yoast_head_json.og_image[0].url}
+                  className="img-fluid animated"
+                  alt="hero-img"
+                />
+              </div>
             </div>
           </div>
-        </div>
+        </section>
       ))}
     </Layout>
   );

@@ -8,3 +8,20 @@ background: #1F277D;
 box-shadow: inset 7px 7px 14px #13184c,
             inset -7px -7px 14px #2b36ae;
 }
+
+@keyframes float-y {
+  0% {
+    transform: translateY(10px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(10px);
+  }
+}
+.animated{
+  transform: translateY(0px);
+  animation: float-y 3s ease-in-out infinite;
+
+}
