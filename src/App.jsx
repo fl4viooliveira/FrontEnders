@@ -6,6 +6,7 @@ import Developer from "./pages/team/slug.jsx";
 import About from "./pages/aboutus.jsx";
 import ServiceList from "./pages/services/index.jsx";
 import Service from "./pages/services/slug.jsx";
+import Admin from "./pages/admin.jsx";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/team/:slug" element={<Developer />} />
         <Route path="/services" element={<ServiceList />} />
         <Route path="/services/:slug" element={<Service />} />
+        <Route path="/admin" element={<Admin />} />
       </Routes>
     </Router>
   );
