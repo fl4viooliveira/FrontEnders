@@ -3,6 +3,7 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import Service from "./slug";
+import Container from "react-bootstrap/Container";
 
 export default function ServiceList() {
   const [services, setServices] = useState([]);
@@ -18,14 +19,14 @@ export default function ServiceList() {
 
   return (
     <Layout>
-      <div className="container-fluid">
+      <Container fluid="lg">
         <h2 className="my-4 text-center">Offered Services</h2>
-        <ul className="row g-3">
+        <ul className="row">
           {services.map((serv) => (
-            <li className="col-4" key={serv.id}>
+            <li className="col-lg-4" key={serv.id}>
               <Link to={serv.slug} element={<Service />}>
                 <div
-                  className="card m-5 p-2 mx-auto border"
+                  className="card my-3 p-2 mx-auto border"
                   style={{ width: "18rem", height: "18rem", backgroundColor: "transparent" }}
                 >
                   <img
@@ -48,7 +49,7 @@ export default function ServiceList() {
             </li>
           ))}
         </ul>
-      </div>
+      </Container>
     </Layout>
   );
 }
