@@ -2,5 +2,5 @@ Slide 1:
 
 Hi everyone! Welcome to our project called Frontenders. Our group is made up of me, Franco Stroff, and Flavio Oliveira. A Website which makes it easy to employers to find out more about the services we offer and the best people to employ to suit their needs. This project is based off using Wordpress as our server for information about us, our services, and our team. This means that any information added to wordpress will automatically be updated on our website, making life easier for future users of this website. 
 
-
 Slide 2:
+Our elevator pitch. Want an easy way to creat a website for your company? Use wordpress to build information needed for your website which gets rendered to your website each time something gets added. Anyone with access can add or edit information without knowing how to code. Once your team has access to the wordpress for your site, everything can be done by you! Need a new ***item/way a website can be interactive***? Save money with hiring developers as the new information can be rendered to your website quickly and efficiently. The website itself is an easy on the eye, interactive way to companies and individuals to view what services you offer and what team members will be able to provide those services. 
