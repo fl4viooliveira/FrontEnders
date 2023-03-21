@@ -7,3 +7,5 @@ Our elevator pitch. Want an easy way to creat a website for your company? Use wo
 
 Slide 3:
 The concept of our project website is to create a good looking, interactive, and easy to edit package. {frontEnders} is a great way to showcase the services you and your team can provide, and more information on your individual team members and what they can provide, including their past work and projects. {frontEnders} makes making and editing your website easy, using the easy and interactive WordPress builder to render our website. Wordpress can be used to create and edit new content which gets automatically rendered to the website. The website itself clearly sets out what the company can offer in services and the members of the team and their skills and past projects. Our user story is: “As a user with little or none coding experience, I want an easy way to edit and add to my website, Saving time and money.”
+
+Slide 4:
