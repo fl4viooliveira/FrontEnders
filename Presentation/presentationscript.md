@@ -4,3 +4,5 @@ Hi everyone! Welcome to our project called Frontenders. Our group is made up of 
 
 Slide 2:
 Our elevator pitch. Want an easy way to creat a website for your company? Use wordpress to build information needed for your website which gets rendered to your website each time something gets added. Anyone with access can add or edit information without knowing how to code. Once your team has access to the wordpress for your site, everything can be done by you! Need a new ***item/way a website can be interactive***? Save money with hiring developers as the new information can be rendered to your website quickly and efficiently. The website itself is an easy on the eye, interactive way to companies and individuals to view what services you offer and what team members will be able to provide those services. 
+
+Slide 3:
