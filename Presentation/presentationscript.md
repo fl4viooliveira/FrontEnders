@@ -15,3 +15,7 @@ Slide 5:
 Here is our homepage. This website is built so that every page has this navigation bar, and every page has this footer with links to our separate repositories, and ways to contact us. The website also has an “about us” page which uses an API call to render this page from Wordpress. The next page on our website shows the offered services. Each card will link to more information about the service offered. This is also all rendered using the API call from WordPress from the services section here. Next is the team page. Here we are, all our beautiful faces. If you click on one of us, for example Flavio here, you will get the description of the team member, links to their linkedin, github repository, and stackoverflow. The skills are then listen below with these cool bars, and below three projects with links to the repo and the page. Then contact information. All of this the page shows all the information gotten from the Wordpress API here. You only need one post/page per person where they can input all the information and it will be generated onto the webpage. For example we could make a quick one now (Dan).
 
 Slide 6:
+Slide 6:
+The future directions for this project could be firstly linking the services offered to team members with those skills. Secondly we could add contact information for user inquiries. We could also create more set options in WordPress that the user can choose to incorporate into their website. 
+
+Slide 7:
