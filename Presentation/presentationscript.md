@@ -18,4 +18,5 @@ Slide 6:
 Slide 6:
 The future directions for this project could be firstly linking the services offered to team members with those skills. Secondly we could add contact information for user inquiries. We could also create more set options in WordPress that the user can choose to incorporate into their website. 
 
-Slide 7:
+Slide 7: 
+Thank you for listening. Here are the links to the project repo page and the deployed site.
