@@ -1,3 +1,5 @@
 Slide 1:
 
-Hi everyone! Welcome to our project called Frontenders. A Website which makes it easy to employers to find out more about the services we offer and the best people to employ to suit their needs. This project is based off using Wordpress as our server for information about us, our services, and our team. This means that any information added to wordpress will automatically be updated on our website, making life easier for future users of this website. 
+Hi everyone! Welcome to our project called Frontenders. Our group is made up of me, Franco Stroff, and Flavio Oliveira. A Website which makes it easy to employers to find out more about the services we offer and the best people to employ to suit their needs. This project is based off using Wordpress as our server for information about us, our services, and our team. This means that any information added to wordpress will automatically be updated on our website, making life easier for future users of this website. 
+
+Slide 2:
