@@ -10,3 +10,5 @@ The concept of our project website is to create a good looking, interactive, and
 
 Slide 4:
 The technologies that we used were React, Bootstrap, and Axios. Our new ones were React-parallax-tilt (a node module), React Icons, and Wordpress. The way that we broke down our roles was that Franco did the initial website design, managed our images (like for this presentation) and did the visuals for the website. Flavio did the API calls for wordpress, and worked on the website doing the components, and the main amalgamation of everyones code. I did some of the website components and other jobs on the website, and was in charge of doing this presentation and creating the README. All three of us were in the same group as in our last project, which helped us out a lot with this project as well all worked well together and we knew everyones strengths and weaknesses. We did not have any major challenges on this website as we quickly found a way to work on GitHub meaning that we did not struggle the same this way with git merges and other clashes. We managed to create a great looking website which works well with minimal stress. 
+
+Slide 5:
