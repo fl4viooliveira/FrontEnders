@@ -1,5 +1,5 @@
 # README generator
-<div id="top" align="center">
+<div align="center">
 
 [![Contributors](https://img.shields.io/github/contributors/fl4viooliveira/FrontEnders?style=for-the-badge)](https://github.com/fl4viooliveira/react-portfolio/graphs/contributors)
 [![Forks](https://img.shields.io/github/forks/fl4viooliveira/FrontEnders?style=for-the-badge)](https://github.com/fl4viooliveira/react-portfolio/forks)
@@ -27,7 +27,7 @@ A React application which uses WordPress as a storage system for information whi
 
 ## Usage
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+<p align="right">(<a href="https://github.com/fl4viooliveira/FrontEnders/blob/28-create-readme/src/README.md">back to top</a>)</p>
 
 ## Installation
 <ol>
@@ -50,7 +50,7 @@ npm start
 ```
 </ol>
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+<p align="right">(<a href="https://github.com/fl4viooliveira/FrontEnders/blob/28-create-readme/src/README.md">back to top</a>)</p>
 
 ## Contributing
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
@@ -66,7 +66,7 @@ If you have any suggestions to improove this website, please fork the repo and c
 <li>Open a Pull Request</li>
 </ol>
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+<p align="right">(<a href="https://github.com/fl4viooliveira/FrontEnders/blob/28-create-readme/src/README.md">back to top</a>)</p>
 
 ## License
 None
@@ -82,11 +82,11 @@ Or, contact the contributors via their GitHub repositories:
 - [Moobell1212](https://github.com/Moobell1212)
 - [francostroff](https://github.com/francostroff)
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+<p align="right">(<a href="https://github.com/fl4viooliveira/FrontEnders/blob/28-create-readme/src/README.md">back to top</a>)</p>
 
 ## Acknowledgments
 - [Img Shields](https://shields.io)
 - [GitHub Pages](https://pages.github.com)
 - [Skill Icons](https://skillicons.dev/)
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+<p align="right">(<a href="https://github.com/fl4viooliveira/FrontEnders/blob/28-create-readme/src/README.md">back to top</a>)</p>
