@@ -4,7 +4,7 @@ import "../styles/footer.css";
 
 export default function Footer() {
   return (
-    <div className="footer mt-5">
+    <div className="footer">
       <Container>
         <div className="row text-center">
           <div className="col-md-4">

@@ -20,8 +20,8 @@ export default function TeamList() {
 
   return (
     <Layout>
-      <div className="container-fluid my-5 " style={{height: "100vh"}}>
-        <h2 className="my-4 text-center">Our Developers</h2>
+        <h2 className="mt-5 text-center">Our Developers</h2>
+      <div className="container-fluid d-flex flex-column justify-content-center" style={{height: "80vh"}}>
         <ul className="row g-3">
           {team.map((dev) => (
             <li key={dev.id} className="col">
@@ -35,7 +35,7 @@ export default function TeamList() {
                   gyroscope={true}
                 >
                   <div
-                    className="card m-5 p-2 mx-auto"
+                    className="card  p-2 mx-auto"
                     style={{
                       width: "18rem",
                       height: "18rem",
