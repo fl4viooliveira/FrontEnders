@@ -1,7 +1,6 @@
 # frontEnders
 <div align="center">
 
-</br>
 [![Contributors](https://img.shields.io/github/contributors/fl4viooliveira/FrontEnders?style=for-the-badge)](https://github.com/fl4viooliveira/react-portfolio/graphs/contributors)
 [![Forks](https://img.shields.io/github/forks/fl4viooliveira/FrontEnders?style=for-the-badge)](https://github.com/fl4viooliveira/react-portfolio/forks)
 [![Stargazers](https://img.shields.io/github/stars/fl4viooliveira/FrontEnders?style=for-the-badge)](https://github.com/fl4viooliveira/FrontEnders/stargazers)
