@@ -10,9 +10,7 @@ export default function Footer() {
           <div className="col-md-4">
             <h4>©2023 frontEnders</h4>
             <p>
-              More information about frontEnders here! Maybe from Wordpress???
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua..."
+            Welcome to our front-end development agency! We are a team of highly skilled and experienced front-end developers who are dedicated to providing the best solutions for your web development needs.
             </p>
           </div>
           <div className="col-md-4">
