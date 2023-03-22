@@ -1,5 +1,6 @@
 # frontEnders
 <div align="center">
+</br>
 
 [![Contributors](https://img.shields.io/github/contributors/fl4viooliveira/FrontEnders?style=for-the-badge)](https://github.com/fl4viooliveira/react-portfolio/graphs/contributors)
 [![Forks](https://img.shields.io/github/forks/fl4viooliveira/FrontEnders?style=for-the-badge)](https://github.com/fl4viooliveira/react-portfolio/forks)
@@ -13,7 +14,7 @@
 </br>
 
 ## Description
-A React application which uses WordPress as a storage system for information which can be called using an API to render a webpage. We have used this to generate an agency website which will show information about the company, what services it can provide, and information about the individual team members.
+A React application which uses WordPress as a storage system for information which is called using an API to render a webpage. We have used this to generate an agency website which will show information about the company, what services it can provide, and information about the individual team members.
 
 The website will contain 4 pages: 
 <ol>
@@ -39,7 +40,7 @@ The website will contain 4 pages:
 </ul>
 </ol>
 
-Each page will have the navigation bar and footer.
+The navigation bar and footer will be rendered to every page.
 
 ## Table of contents
 - [Usage](#usage)
