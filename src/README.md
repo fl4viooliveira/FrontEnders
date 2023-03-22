@@ -15,6 +15,31 @@
 ## Description
 A React application which uses WordPress as a storage system for information which can be called using an API to render a webpage. We have used this to generate an agency website which will show information about the company, what services it can provide, and information about the individual team members.
 
+The website will contain 4 pages: 
+<ol>
+<li>The homepage:</li>
+<ul>
+<li>Short subtitle about the company.</li>
+<li>An image with a css animation.</li>
+</ul>
+<li>The 'About us' page:</li>
+<ul>
+<li>More information about the company rendered using the WordPress API.</li>
+</ul>
+<li>The 'Services' page</li>
+<ul>
+<li>Contains cards showing services provided rendered using the WordPress API.</li>
+<li>Each card opens up into a new page also rendered using the WordPress API.</li>
+</ul>
+<li>The 'Team' page</li>
+<ul>
+<li>Contains cards showing the team members rendered using WordPress API.</li>
+<li>These cards are animated using the npm package 'react-parallax-tilt'.</li>
+<li>Each card opens to a different page for each team member with more information, also rendered using WordPress API.</li>
+</ul>
+</ol>
+
+Each page will have the navigation bar and footer.
 
 ## Table of contents
 - [Usage](#usage)
@@ -26,6 +51,29 @@ A React application which uses WordPress as a storage system for information whi
 - [Acknowledgments](#acknowledgments)
 
 ## Usage
+The website will open into this homepage. The icon and the 'Home' link in the navigation bar will take the user to the page below.
+
+<img src="assets/readmeImages/homepage.png" />
+
+The 'About us' link in the navigation bar will take the user to the page below. This information is rendered using the WordPress API.
+
+<img src="assets/readmeImages/aboutus.png" />
+
+The 'Services' link in the navigation bar will take the user to the page below. These cards are rendered using the WordPress API. 
+
+<img src="assets/readmeImages/services.png" />
+
+From the 'Services' page, if the user clicks on any of the pages, the user will be sent to a page with contains more information about the service chosen. This is rendered using the WordPress API. The example below is shown when the 'Web Maintenance' card is chosen.
+
+<img src="assets/readmeImages/webmaintenance.png" />
+
+The 'Team' link in the navigation bar will take the user to the page below. These team member cards are rendered using the WordPress API. These cards use the React-parallax-tilt npm package to be animated when the user's mouse hovers.
+
+<img src="assets/readmeImages/team.png" />
+
+When one of the team members card is clicked, the page below is shown, generated using the WordPress API. The example below is shown when 'Flavio Oliveira' card is chosen.
+
+<img src="assets/readmeImages/teammember.png" />
 
 
 <p align="right">(<a href="https://github.com/fl4viooliveira/FrontEnders/blob/28-create-readme/src/README.md">back to top</a>)</p>
@@ -38,7 +86,7 @@ A React application which uses WordPress as a storage system for information whi
 git clone https://github.com/fl4viooliveira/FrontEnders.git
 ```
 
-<li>To install hte npm packages, on the terminal type:</li>
+<li>To install thee npm packages, on the terminal type:</li>
 
 ```
 npm install
