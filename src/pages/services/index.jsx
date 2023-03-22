@@ -19,7 +19,7 @@ export default function ServiceList() {
 
   return (
     <Layout>
-      <Container fluid="lg">
+      <Container fluid="lg my-5" style={{minHeight: "100vh"}}>
         <h2 className="my-4 text-center">Offered Services</h2>
         <ul className="row">
           {services.map((serv) => (

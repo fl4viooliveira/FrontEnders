@@ -20,7 +20,7 @@ export default function TeamList() {
 
   return (
     <Layout>
-      <div className="container-fluid">
+      <div className="container-fluid my-5 " style={{height: "100vh"}}>
         <h2 className="my-4 text-center">Our Developers</h2>
         <ul className="row g-3">
           {team.map((dev) => (
