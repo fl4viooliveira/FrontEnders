@@ -21,7 +21,7 @@ export default function Aboutus() {
 
   return (
     <Layout>
-      <Container>
+      <Container style={{height: "100vh"}}>
         <div
           dangerouslySetInnerHTML={{ __html: about }}
           className="aboutus border  p-3"
