@@ -54,11 +54,6 @@ export default function Footer() {
                 Via the repo
               </a>
             </li>
-            <li className="list-unstyled">
-              <a href="/contactpage" target="_blank">
-                Via the contact page
-              </a>
-            </li>
           </div>
         </div>
       </Container>
