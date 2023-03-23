@@ -40,9 +40,9 @@ The website will contain 4 pages:
 </ul>
 </ol>
 
-Deployed site: https://frontenders.netlify.app/
-
 The navigation bar and footer will be rendered to every page.
+
+Deployed site: https://frontenders.netlify.app/
 
 ## Table of contents
 - [Usage](#usage)
