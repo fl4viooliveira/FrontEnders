@@ -14,7 +14,7 @@
 </br>
 
 ## Description
-A React application which uses WordPress as a storage system for information which is called using an API to render a webpage. We have used this to generate an agency website which will show information about the company, what services it can provide, and information about the individual team members.
+A React application, deployed using Netlify, which uses WordPress as a storage system for information which is called using an API to render a webpage. We have used this to generate an agency website which will show information about the company, what services it can provide, and information about the individual team members.
 
 The website will contain 4 pages: 
 <ol>
