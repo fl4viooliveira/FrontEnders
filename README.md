@@ -128,7 +128,7 @@ None
 None
 
 ## Questions
-Contact the developers with any questions at the GitHub repository: [fl4viooliveira/find-your-movie](https://github.com/fl4viooliveira/find-your-movie).
+Contact the developers with any questions at the GitHub repository: [fl4viooliveira/FrontEnders](https://github.com/fl4viooliveira/FrontEnders).
 
 Or, contact the contributors via their GitHub repositories:
 - [fl4viooliveira](https://github.com/fl4viooliveira)
