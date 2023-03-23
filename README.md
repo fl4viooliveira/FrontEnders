@@ -2,8 +2,8 @@
 <div align="center">
 </br>
 
-[![Contributors](https://img.shields.io/github/contributors/fl4viooliveira/FrontEnders?style=for-the-badge)](https://github.com/fl4viooliveira/react-portfolio/graphs/contributors)
-[![Forks](https://img.shields.io/github/forks/fl4viooliveira/FrontEnders?style=for-the-badge)](https://github.com/fl4viooliveira/react-portfolio/forks)
+[![Contributors](https://img.shields.io/github/contributors/fl4viooliveira/FrontEnders?style=for-the-badge)](https://github.com/fl4viooliveira/FrontEnders/graphs/contributors)
+[![Forks](https://img.shields.io/github/forks/fl4viooliveira/FrontEnders?style=for-the-badge)](https://github.com/fl4viooliveira/FrontEnders/forks)
 [![Stargazers](https://img.shields.io/github/stars/fl4viooliveira/FrontEnders?style=for-the-badge)](https://github.com/fl4viooliveira/FrontEnders/stargazers)
 [![Issues](https://img.shields.io/github/issues/fl4viooliveira/FrontEnders?style=for-the-badge)](https://github.com/fl4viooliveira/FrontEnders/issues)
 
