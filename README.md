@@ -40,6 +40,8 @@ The website will contain 4 pages:
 </ul>
 </ol>
 
+Deployed site: https://frontenders.netlify.app/
+
 The navigation bar and footer will be rendered to every page.
 
 ## Table of contents
@@ -76,6 +78,7 @@ When one of the team members card is clicked, the page below is shown, generated
 
 <img src="src/assets/readmeImages/teammember.png" />
 
+Deployed site: https://frontenders.netlify.app/
 
 <p align="right">(<a href="https://github.com/fl4viooliveira/FrontEnders/blob/main/README.md">back to top</a>)</p>
 
